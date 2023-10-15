@@ -61,7 +61,7 @@ edit_layout.addLayout(line6)
 statistics = QLabel('Статистика')
 
 amount_atempt = QLabel('Разів відповіли:')
-amount_correct = QLabel('Вірний відповідей:')
+amount_correct = QLabel('Вірних відповідей:')
 sucssesful = QLabel('Успішність:')
 stat_line =  QVBoxLayout()
 stat_line.addWidget(statistics,alignment=Qt.AlignLeft)
@@ -80,3 +80,7 @@ edit_layout.addLayout(line7)
 main_win.setLayout(edit_layout)
 main_win.show()
 app.exec_()
+
+
+
+
